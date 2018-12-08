@@ -214,19 +214,11 @@ a:hover {
     clear: both;
 }
 
-@media (max-width:767px) {
-    #wrapper {
-        width: 100%;
-        height: auto;
-    }
-    #video1 {
-        width: 100%;
-        height: auto;
-        float: none;
-    }
-    #video2 {
-        width: 100%;
-        height: auto;
-        float: none;
-    }
+
+#videos {
+	margin-bottom:100px !important;
+}
+
+iframe {
+	margin:1% !important;
 }
